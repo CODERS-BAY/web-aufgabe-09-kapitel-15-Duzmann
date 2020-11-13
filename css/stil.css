@@ -1,0 +1,352 @@
+body {
+  background-image: linear-gradient(to top right, rgb(255, 217, 0), yellow);
+  color: black;
+  font-family: monospace;  
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+.styledHead {
+  background-image: url('../img/headerBanner.png');
+  background-repeat: repeat-x;
+  min-height: 60vh; /* makes no sense because of next line :) but hey task is task*/
+  background-size: contain;
+  margin-left: -2rem;
+  margin-top: -2rem;
+  margin-right: -2rem;
+  background-attachment: local;
+}
+
+.styledHead-pages {
+  background-color: white;
+  margin-left: -2rem;
+  margin-top: -2rem;
+  margin-right: -2rem;
+  background-attachment: local;
+}
+
+.bg1 {
+  background-image: url('../img/candy01.jpg');
+  background-color: #000000; /* Used if the image is unavailable */
+  min-height: 40rem; /* You must set a specified height */
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 2rem;
+  margin: .5rem;
+  border-radius: .3rem;
+  height: contain;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.bg2 {
+  background-image: url('../img/candy02.jpg');
+  background-color: #000000; /* Used if the image is unavailable */
+  min-height: 40rem; /* You must set a specified height */
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 2rem;
+  margin: .5rem;
+  border-radius: .3rem;
+  height: contain;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.bg3 {
+  background-image: url('../img/candy03.jpg');
+  background-color: #000000; /* Used if the image is unavailable */
+  min-height: 40rem; /* You must set a specified height */
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 2rem;
+  margin: .5rem;
+  border-radius: .3rem;
+  height: contain;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bg4 {
+  background-image: url('../img/candy04.jpg');
+  background-color: #000000; /* Used if the image is unavailable */
+  min-height: 40rem; /* You must set a specified height */
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 2rem;
+  margin: .5rem;
+  border-radius: .3rem;
+  height: contain;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+p{
+font-size: 1.3rem;
+text-transform: capitalize;
+}
+
+h2{
+  font-size: 1.5rem;  
+font-family: 'Bungee Shade', cursive;
+}
+
+h3{
+  font-size: 1rem;  
+  padding:-2rem;
+font-family: 'Bungee Shade', cursive;
+}
+
+footer{
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+  color: rgb(93, 104, 129);
+  font-family: 'Butterfly Kids', cursive;
+}
+
+
+.stroked01 {
+  background-image: url('../img/painted01.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 3rem;
+}
+
+.stroked02 {
+  background-image: url('../img/painted02.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 3rem;
+}
+
+.stroked03 {
+  background-image: url('../img/painted03.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding:3rem;
+}
+
+.stroked04 {
+  background-image: url('../img/painted04.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 3rem;
+}
+
+.headlineStroked02{
+font-size: 7rem;
+font-family: 'Bungee Shade', cursive;
+line-height: 4rem;
+margin-bottom: 3rem;
+padding-top: 2rem;
+}
+
+.headlineStrokedSmall{
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: 'Bungee Shade', cursive;
+  }
+
+.transpText{
+  opacity: 0.45;
+}
+
+
+li {
+ 
+  list-style-image: url('img/lolli.png');
+  padding: .3rem;
+  margin-left: 2.5rem;
+}
+
+nav {
+background-image: url('../img/painted01.png');
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: contain;
+padding-left: 15rem;
+padding-right: 15rem;
+padding-bottom: 2rem;
+margin-bottom: 2rem;
+margin-top: 2rem;
+font-family: 'Bungee Shade', cursive;
+font-size: 1.5rem;
+line-height: 2rem;
+} 
+
+.navSmall {
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 0.5rem;
+  } 
+
+li::first-letter {
+  font-size: 120%;
+}
+
+h1::first-letter {
+  font-size: 120%;
+}
+
+h2::first-letter {
+  font-size: 120%;
+}
+
+a{
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight:bold;
+  color: orange;  
+}
+
+
+.animation { 
+  margin:1rem auto;
+  border-radius: 50em;  
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 150px;
+  background-image: url('../img/lolli.png'); 
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.animation:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.bildlinks {
+  float: left;
+  margin: 4rem;
+  max-width: 25%;
+border-radius: .5rem;
+box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.bildrechts {
+  float: right;
+  margin: 4rem;
+  max-width: 25%;
+border-radius: .5rem;
+box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.centered{
+  text-align:center;
+  padding: 3rem;
+}
+
+.justLikeH2{
+  font-size: 1.5rem;  
+  font-family: 'Bungee Shade', cursive;
+color: red;
+}
+
+.justLikeH2-2{
+  font-size: 1.5rem;  
+  font-family: 'Bungee Shade', cursive;
+}
+
+button {
+margin: 1.25rem;
+padding: 0.75 rem auto;
+border-radius: 1rem;
+border-width: 0.25rem;
+font-size: 1.5rem;
+font-weight: bold;
+text-align: end ;
+font-family: 'Bungee Shade', cursive;
+line-height: 2.6rem;
+box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.buttonIcon{
+  max-height: 15rem;
+  float:left;
+  margin: -1.5rem;
+  margin-bottom: -3rem;
+}
+
+
+
+article {
+  padding: 1rem;
+}
+
+.sticky {
+  float: left; 
+  position: -webkit-sticky;
+  position: sticky;
+  margin: -2rem;
+}
+
+
+.catalogue {
+  
+  object-fit: cover;
+  float: left;
+  margin: .2rem;
+  width: 10rem;
+  height: 18rem;
+  margin-right: 1rem;
+border-radius: .5rem;
+box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.catalogueArticle {
+  padding-top: 3rem;
+font-size: 1rem;
+text-align: left;
+}
+
+.stroked02cataloge {
+  display: block;
+  position: absolute;
+  left: 12rem;
+  top: -2rem;
+  background-image: url('../img/painted02.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 3rem;
+  padding-left: 1rem;
+}
+
+.Article01 {
+display: inline-block;
+width: 50%;
+}
